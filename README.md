@@ -10,11 +10,13 @@ Update Equations-
 The objective of logistic regression is to minimize the cost function 
 
 ![Cost](https://github.com/mustafashabbir10/Logistic-Regression/blob/master/Images/Cost.PNG)
+
 where hypothesis is given by the logistic model-
 
 ![Hypothesis](https://github.com/mustafashabbir10/Logistic-Regression/blob/master/Images/hypothesis.PNG)
 
 and the function g is-
+
 ![sigmoid](https://github.com/mustafashabbir10/Logistic-Regression/blob/master/Images/sigmoid.PNG)
 
 The parameter of the model are theta values. These are the values I will adjust to minimize the cost function. The most common way to do it is by batch gradient descent. In batch gradient descent, each iteration performs the update
